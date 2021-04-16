@@ -1,0 +1,2 @@
+[lab]
+managed_server  ansible_connection=local

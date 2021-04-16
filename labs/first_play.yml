@@ -1,0 +1,11 @@
+- hosts: all
+  gather_facts: no
+
+  tasks:
+   - name: Simple ping
+     ansible.builtin.ping:
+
+   - name: Check ssh service
+     ansible.builtin.service:
+      name: ssh
+      state: started
