@@ -26,7 +26,7 @@ deactivate
 # Python venv for Asnible 2.10
 virtualenv -p python3 py3-ans2.10
 source py3-ans2.10/bin/activate
-pip install ansible-base==2.10 ansible==2.10 
+pip install ansible==2.10   # it will install ansible-base too
 ansible --version
 pip list | grep -i ansible
 deactivate
